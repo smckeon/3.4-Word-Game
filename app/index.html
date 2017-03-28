@@ -12,12 +12,7 @@
 <div class="container">
   <div class="col-md-push-4 col-md-4">
     <h1>Hangman</h1>
-    <footer>
-        <p>
-            <span class="directions"> Directions:</span> Choose a letter..
-            <br> You have a total of 10 guesses.. Good Luck!
-        </p>
-    </footer>
+
   </div>
   </div>
 
@@ -26,12 +21,13 @@
         <div class="col-md-push-4 col-md-4">
 
             <div id="content-container">
-                <div id="random-word-holder"></div>
-                <div id="guesses-remaining-holder"></div>
+                <p>Please guess the common word.</p>
+                <div id="random_word"></div>
+                <div id="guesses_remaining"></div>
                 <div id="guesses">guesses remaining..</div>
                 <br>
               <div>
-                  <label id="guess-label" for="letter">GUESS A LETTER</label>
+                  <label id="guess-label" for="letter">Guess A Letter</label>
                   <br>
                   <input id="letter" type="text" name="guess" value="">
               </div>
@@ -40,6 +36,6 @@
         </div>
       </div>
 
-
+<script src="js/bundle.js"></script>
 </body>
 </html>
