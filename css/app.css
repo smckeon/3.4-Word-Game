@@ -5769,4 +5769,17 @@ img {
 .directions {
   font-weight: bold; }
 
+body {
+  font-size: 22px;
+  background-color: #939584;
+  color: #415d8a; }
+
+#guesses, #guesses_remaining {
+  display: inline-block;
+  font-size: 16px;
+  text-transform: full-width; }
+
+#random_word {
+  color: #dadce9; }
+
 /*# sourceMappingURL=app.css.map */
